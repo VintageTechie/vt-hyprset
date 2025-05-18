@@ -1,0 +1,433 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "AtkSharp/3.22.24.10": {
+        "type": "package",
+        "dependencies": {
+          "GLibSharp": "3.22.24.10"
+        },
+        "compile": {
+          "lib/netstandard2.0/AtkSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AtkSharp.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libatk-1.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-x64/native/libatk-1.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libatk-1.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          }
+        }
+      },
+      "CairoSharp/3.22.24.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CairoSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CairoSharp.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libcairo-2.dll.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-x64/native/libcairo-2.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libcairo-2.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          }
+        }
+      },
+      "GdkSharp/3.22.24.10": {
+        "type": "package",
+        "dependencies": {
+          "GLibSharp": "3.22.24.10",
+          "GioSharp": "3.22.24.10",
+          "PangoSharp": "3.22.24.10"
+        },
+        "compile": {
+          "lib/netstandard2.0/GdkSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GdkSharp.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libgdk-3-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libgdk_pixbuf-2.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-x64/native/libgdk-3-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdk_pixbuf-2.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libgdk-3-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/linux-x86/native/libgdk_pixbuf-2.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          }
+        }
+      },
+      "GioSharp/3.22.24.10": {
+        "type": "package",
+        "dependencies": {
+          "GLibSharp": "3.22.24.10"
+        },
+        "compile": {
+          "lib/netstandard2.0/GioSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GioSharp.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libgio-2.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-x64/native/libgio-2.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libgio-2.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          }
+        }
+      },
+      "GLibSharp/3.22.24.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/GLibSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GLibSharp.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libglib-2.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libgobject-2.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libgthread-2.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-x64/native/libglib-2.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgobject-2.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgthread-2.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libglib-2.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/linux-x86/native/libgobject-2.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/linux-x86/native/libgthread-2.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          }
+        }
+      },
+      "GtkSharp/3.22.24.10": {
+        "type": "package",
+        "dependencies": {
+          "AtkSharp": "3.22.24.10",
+          "GLibSharp": "3.22.24.10",
+          "GdkSharp": "3.22.24.10",
+          "GioSharp": "3.22.24.10",
+          "PangoSharp": "3.22.24.10"
+        },
+        "compile": {
+          "lib/netstandard2.0/GtkSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GtkSharp.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libgtk-3-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-x64/native/libgtk-3-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libgtk-3-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          }
+        }
+      },
+      "PangoSharp/3.22.24.10": {
+        "type": "package",
+        "dependencies": {
+          "CairoSharp": "3.22.24.10",
+          "GLibSharp": "3.22.24.10"
+        },
+        "compile": {
+          "lib/netstandard2.0/PangoSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PangoSharp.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libpango-1.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-x64/native/libpango-1.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libpango-1.0-0.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AtkSharp/3.22.24.10": {
+      "sha512": "V6c4ntBtiIlu6RzEYWgzrtBiFffXyJQwmWxzQVtV1Nabk2QhQISp/a7hfsehuusA9Yl8H40L0pBqTZ3TVH1yUg==",
+      "type": "package",
+      "path": "atksharp/3.22.24.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "atksharp.3.22.24.10.nupkg.sha512",
+        "atksharp.nuspec",
+        "lib/netstandard2.0/AtkSharp.dll",
+        "runtimes/linux-arm/native/libatk-1.0-0.dll.so",
+        "runtimes/linux-x64/native/libatk-1.0-0.dll.so",
+        "runtimes/linux-x86/native/libatk-1.0-0.dll.so"
+      ]
+    },
+    "CairoSharp/3.22.24.10": {
+      "sha512": "IeJIWH+D24cl4Cbz0q0NKdC5JBuu1iwyjurtRai5I7yYxPfSMCqMineFusdZilV45ImoWYjwORJPixNgEjTnDw==",
+      "type": "package",
+      "path": "cairosharp/3.22.24.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cairosharp.3.22.24.10.nupkg.sha512",
+        "cairosharp.nuspec",
+        "lib/netstandard2.0/CairoSharp.dll",
+        "runtimes/linux-arm/native/libcairo-2.dll.so",
+        "runtimes/linux-x64/native/libcairo-2.dll.so",
+        "runtimes/linux-x86/native/libcairo-2.dll.so"
+      ]
+    },
+    "GdkSharp/3.22.24.10": {
+      "sha512": "bQMaI60/r/8DCn/g6fo/uOI2rVaXLvQ3LzS7SiAlVPNng9HL4YVHmpRn1Djh3G2fFKyQFp/Eo76YWm6s00E5Og==",
+      "type": "package",
+      "path": "gdksharp/3.22.24.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gdksharp.3.22.24.10.nupkg.sha512",
+        "gdksharp.nuspec",
+        "lib/netstandard2.0/GdkSharp.dll",
+        "runtimes/linux-arm/native/libgdk-3-0.dll.so",
+        "runtimes/linux-arm/native/libgdk_pixbuf-2.0-0.dll.so",
+        "runtimes/linux-x64/native/libgdk-3-0.dll.so",
+        "runtimes/linux-x64/native/libgdk_pixbuf-2.0-0.dll.so",
+        "runtimes/linux-x86/native/libgdk-3-0.dll.so",
+        "runtimes/linux-x86/native/libgdk_pixbuf-2.0-0.dll.so"
+      ]
+    },
+    "GioSharp/3.22.24.10": {
+      "sha512": "qk8VmqBIlSZqSjOlPyjiuZiPDWqi3+NtZmkXorxB+tVyoMbgU7pyPIm6k3UQArK9hjFsB33JzNTQzS2ieW/9Ag==",
+      "type": "package",
+      "path": "giosharp/3.22.24.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "giosharp.3.22.24.10.nupkg.sha512",
+        "giosharp.nuspec",
+        "lib/netstandard2.0/GioSharp.dll",
+        "runtimes/linux-arm/native/libgio-2.0-0.dll.so",
+        "runtimes/linux-x64/native/libgio-2.0-0.dll.so",
+        "runtimes/linux-x86/native/libgio-2.0-0.dll.so"
+      ]
+    },
+    "GLibSharp/3.22.24.10": {
+      "sha512": "3SUGgsfQbS9hIBjChBaOdiLAEauwMCdO9ufaTfGMbVk5VJKyoeOTGsCnh6UmhlV2MTye5d8LY7lgrO5aSLqVKQ==",
+      "type": "package",
+      "path": "glibsharp/3.22.24.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "glibsharp.3.22.24.10.nupkg.sha512",
+        "glibsharp.nuspec",
+        "lib/netstandard2.0/GLibSharp.dll",
+        "runtimes/linux-arm/native/libglib-2.0-0.dll.so",
+        "runtimes/linux-arm/native/libgobject-2.0-0.dll.so",
+        "runtimes/linux-arm/native/libgthread-2.0-0.dll.so",
+        "runtimes/linux-x64/native/libglib-2.0-0.dll.so",
+        "runtimes/linux-x64/native/libgobject-2.0-0.dll.so",
+        "runtimes/linux-x64/native/libgthread-2.0-0.dll.so",
+        "runtimes/linux-x86/native/libglib-2.0-0.dll.so",
+        "runtimes/linux-x86/native/libgobject-2.0-0.dll.so",
+        "runtimes/linux-x86/native/libgthread-2.0-0.dll.so"
+      ]
+    },
+    "GtkSharp/3.22.24.10": {
+      "sha512": "pTs1ReOpGTvbqLmzLBcgJ3h/EFoeVL/CupoTiChmmf5XovRp/vqKdP+Cpk9QVnfGThYKijTioVhDYZ7hoFDgPg==",
+      "type": "package",
+      "path": "gtksharp/3.22.24.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gtksharp.3.22.24.10.nupkg.sha512",
+        "gtksharp.nuspec",
+        "lib/netstandard2.0/GtkSharp.dll",
+        "runtimes/linux-arm/native/libgtk-3-0.dll.so",
+        "runtimes/linux-x64/native/libgtk-3-0.dll.so",
+        "runtimes/linux-x86/native/libgtk-3-0.dll.so"
+      ]
+    },
+    "PangoSharp/3.22.24.10": {
+      "sha512": "QH7k+iwpgHVZ51J8F1W4bvfxXfFWW/6+uihXiuqRjlRt4tjOO+LgpAXExNvJMECFwi6fKpYduouJMOp/KMK0ug==",
+      "type": "package",
+      "path": "pangosharp/3.22.24.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/PangoSharp.dll",
+        "pangosharp.3.22.24.10.nupkg.sha512",
+        "pangosharp.nuspec",
+        "runtimes/linux-arm/native/libpango-1.0-0.dll.so",
+        "runtimes/linux-x64/native/libpango-1.0-0.dll.so",
+        "runtimes/linux-x86/native/libpango-1.0-0.dll.so"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "GtkSharp >= 3.22.24.1"
+    ]
+  },
+  "packageFolders": {
+    "/home/john/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/mnt/data4tb/dev/vt-hyprset/vt-hyprset.csproj",
+      "projectName": "vt-hyprset",
+      "projectPath": "/mnt/data4tb/dev/vt-hyprset/vt-hyprset.csproj",
+      "packagesPath": "/home/john/.nuget/packages/",
+      "outputPath": "/mnt/data4tb/dev/vt-hyprset/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/john/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "GtkSharp": {
+            "target": "Package",
+            "version": "[3.22.24.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.4, 9.0.4]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "vt-hyprset depends on GtkSharp (>= 3.22.24.1) but GtkSharp 3.22.24.1 was not found. GtkSharp 3.22.24.10 was resolved instead.",
+      "libraryId": "GtkSharp",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}
