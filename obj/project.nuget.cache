@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "VV3UM9QnN8Q=",
+  "success": true,
+  "projectFilePath": "/mnt/data4tb/dev/vt-hyprset/vt-hyprset.csproj",
+  "expectedPackageFiles": [
+    "/home/john/.nuget/packages/atksharp/3.22.24.10/atksharp.3.22.24.10.nupkg.sha512",
+    "/home/john/.nuget/packages/cairosharp/3.22.24.10/cairosharp.3.22.24.10.nupkg.sha512",
+    "/home/john/.nuget/packages/gdksharp/3.22.24.10/gdksharp.3.22.24.10.nupkg.sha512",
+    "/home/john/.nuget/packages/giosharp/3.22.24.10/giosharp.3.22.24.10.nupkg.sha512",
+    "/home/john/.nuget/packages/glibsharp/3.22.24.10/glibsharp.3.22.24.10.nupkg.sha512",
+    "/home/john/.nuget/packages/gtksharp/3.22.24.10/gtksharp.3.22.24.10.nupkg.sha512",
+    "/home/john/.nuget/packages/pangosharp/3.22.24.10/pangosharp.3.22.24.10.nupkg.sha512",
+    "/home/john/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.4/microsoft.aspnetcore.app.ref.9.0.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "vt-hyprset depends on GtkSharp (>= 3.22.24.1) but GtkSharp 3.22.24.1 was not found. GtkSharp 3.22.24.10 was resolved instead.",
+      "libraryId": "GtkSharp",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}
